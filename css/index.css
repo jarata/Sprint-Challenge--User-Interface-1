@@ -144,3 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*My Code Here*/
+nav {
+    display: flex;
+    margin: 40px 0;
+}
+#nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+a:hover {
+    font-weight: bolder;
+}
+.banner-img {
+    margin-bottom: 20px;
+}
