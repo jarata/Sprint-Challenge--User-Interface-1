@@ -196,3 +196,33 @@ a:hover {
 .boxes .box:nth-child(10) {
     background: dodgerblue;
 }
+.top-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-content-about .text-container {
+    width: 100%;
+    padding: 0 2%;
+    padding-bottom: 20px;
+}
+#about-articles {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-between;
+}
+#about-articles article {
+    max-width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+#about-articles article div {
+    padding: 10px 0;
+}
+#about-articles article button {
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 130px;
+    margin: 20px 0;
+}
