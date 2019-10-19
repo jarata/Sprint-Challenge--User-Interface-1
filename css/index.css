@@ -225,4 +225,9 @@ a:hover {
     border-radius: 10px;
     width: 130px;
     margin: 20px 0;
+    background: white;
+}
+#about-work {
+    padding: 0 2%;
+    margin-bottom: 50px;
 }
