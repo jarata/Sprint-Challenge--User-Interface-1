@@ -144,3 +144,90 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*My Code Here*/
+nav {
+    display: flex;
+    margin: 20px 0;
+}
+#nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+a:hover {
+    font-weight: bolder;
+}
+.banner-img {
+    margin: 25px 0;
+}
+.boxes .box:nth-child(1) {
+    background: teal;
+}
+.boxes .box:nth-child(2) {
+    background: gold;
+}
+.boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+.boxes .box:nth-child(4) {
+    background: coral;
+}
+.boxes .box:nth-child(5) {
+    background: crimson;
+}
+.boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+.boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+.boxes .box:nth-child(7) {
+    background: hotpink;
+}
+.boxes .box:nth-child(8) {
+    background: indigo;
+}
+.boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+.top-content-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.top-content-about .text-container {
+    width: 100%;
+    padding: 0 2%;
+    padding-bottom: 20px;
+}
+#about-articles {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-between;
+}
+#about-articles article {
+    max-width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 40px;
+}
+#about-articles article div {
+    padding: 10px 0;
+}
+#about-articles article button {
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 130px;
+    margin: 20px 0;
+    background: white;
+}
+#about-work {
+    padding: 0 2%;
+    margin-bottom: 50px;
+}
